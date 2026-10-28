@@ -1,0 +1,4 @@
+[original offset] 0x00000870 (@ 0x000018D8) --> [manipulated offset] 0x00000020 (@ 0x000018D8)
+[Target 'nk_cell']
+: {'key_name': '0x02_TYPE1_TREE', 'base': <cftt_hive.HIVE_CELL_NK object at 0x02845170>, 'self': 5544}
+

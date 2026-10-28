@@ -1,0 +1,4 @@
+[original offset] 0x000002D0 (@ 0x000012AC) --> [manipulated offset] 0x00000000 (@ 0x000012AC)
+[Target 'vk_cell']
+: {'value_name': 'VALUE 0x03 (BINARY)', 'self': 4768, 'base': <cftt_hive.HIVE_CELL_VK object at 0x02615E40>}
+

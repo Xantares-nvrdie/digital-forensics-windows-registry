@@ -1,0 +1,4 @@
+[original offset] 0x00017440 (@ 0x00018350) --> [manipulated offset] 0x00000000 (@ 0x00018350)
+[original offset] 0x00017390 (@ 0x00018358) --> [manipulated offset] 0x00000000 (@ 0x00018358)
+[original offset] 0x000172D8 (@ 0x00018360) --> [manipulated offset] 0x00000000 (@ 0x00018360)
+[original offset] 0x00017158 (@ 0x00018368) --> [manipulated offset] 0x00000000 (@ 0x00018368)

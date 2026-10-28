@@ -1,0 +1,63 @@
+artifact_id,category,hive_file,key_path,value_name,expected_value,expected_timestamp,expected_status,source_reference,notes
+REG-N-001,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x00 (NONE),b'none',2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegNone type verification
+REG-N-002,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x01 (SZ),UTF-16LE NULL-terminated string,2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegSZ string extraction
+REG-N-003,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x02 (EXP_SZ),%SystemRoot%,2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegExpandSZ environment string
+REG-N-004,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x03 (BINARY),b'binary data',2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegBin raw binary value
+REG-N-005,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x04 (DWORD-LE),4,2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegDWord 32-bit integer LE
+REG-N-006,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x05 (DWORD-BE),83886080,2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegBigEndian 32-bit integer BE
+REG-N-007,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x06 (LINK),Symbolic link,2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegLink symbolic link
+REG-N-008,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x07 (MULTI_SZ),"['REG_MULTI_SZ_1', 'REG_MULTI_SZ_2', 'REG_MULTI_SZ_3', '']",2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegMultiSZ array strings
+REG-N-009,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x08 (RES_LIST),b'resource_list',2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegResourceList descriptor
+REG-N-010,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x09 (RES_DESC),b'resource_descriptor',2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegFullResourceDescriptor
+REG-N-011,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x0A (REQ_LIST),b'requirements_list',2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegResourceRequirementsList
+REG-N-012,normal,[nr]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x0B (QWORD-LE),8,2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-NR,RegQWord 64-bit integer LE
+REG-N-013,normal,[nr]-02-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_1,(default),b'\x01',2017-09-25T14:22:41.935209,ACTIVE,NIST CFReDS UGRD-NR,Tree hierarchy Node 1
+REG-N-014,normal,[nr]-02-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_1\Node_1-1,(default),b'\x01\x01',2017-09-25T14:22:41.935209,ACTIVE,NIST CFReDS UGRD-NR,Tree hierarchy Level 2 subkey
+REG-N-015,normal,[nr]-02-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_1\Node_1-2,(default),b'\x01\x02',2017-09-25T14:22:41.935209,ACTIVE,NIST CFReDS UGRD-NR,Tree hierarchy Level 2 subkey branch
+REG-N-016,normal,[nr]-02-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_2,(default),b'\x02',2017-09-25T14:22:41.935209,ACTIVE,NIST CFReDS UGRD-NR,Tree hierarchy Node 2
+REG-N-017,normal,[nr]-02-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_2\Node_2-1,(default),b'\x02\x01',2017-09-25T14:22:41.935209,ACTIVE,NIST CFReDS UGRD-NR,Tree hierarchy Node 2 child
+REG-N-018,normal,[nr]-07-1_v15.hive,ROOT\0x07_TYPE1_NON-ASCII\Hello,Hello,Hello : English,2017-09-25T14:22:51.162811,ACTIVE,NIST CFReDS UGRD-NR,ASCII English baseline
+REG-N-019,normal,[nr]-07-1_v15.hive,ROOT\0x07_TYPE1_NON-ASCII\¡Hola!,¡Hola!,¡Hola! : Spanish,2017-09-25T14:22:51.162811,ACTIVE,NIST CFReDS UGRD-NR,Spanish inverted exclamation mark
+REG-N-020,normal,[nr]-07-1_v15.hive,ROOT\0x07_TYPE1_NON-ASCII\Здравствуйте,Здравствуйте,Здравствуйте : Russian,2017-09-25T14:22:51.162811,ACTIVE,NIST CFReDS UGRD-NR,Cyrillic Russian script
+REG-N-021,normal,[nr]-07-1_v15.hive,ROOT\0x07_TYPE1_NON-ASCII\こんにちは,こんにちは,こんにちは : Japanese,2017-09-25T14:22:51.162811,ACTIVE,NIST CFReDS UGRD-NR,Japanese Hiragana script
+REG-N-022,normal,[nr]-07-1_v15.hive,ROOT\0x07_TYPE1_NON-ASCII\您好,您好,您好 : Chinese,2017-09-25T14:22:51.162811,ACTIVE,NIST CFReDS UGRD-NR,Simplified Chinese Hanzi script
+REG-D-001,deleted,[nrd]-01-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,NA,NA,NA,DELETED,NIST CFReDS UGRD-NRD,Key deleted; unallocated cell
+REG-D-002,deleted,[nrd]-01-1_v15.hive,ROOT\0x06_TYPE1_BIG-DATA,NA,NA,NA,DELETED,NIST CFReDS UGRD-NRD,Big data key deleted
+REG-D-003,deleted,[nrd]-01-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_1,(default),b'\x01',2017-09-25T14:22:52.584812,ACTIVE,NIST CFReDS UGRD-NRD,Remaining active tree key in deleted hive
+REG-D-004,deleted,[nrd]-01-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_2,(default),b'\x02',2017-09-25T14:22:52.584812,ACTIVE,NIST CFReDS UGRD-NRD,Remaining active tree key in deleted hive
+REG-D-005,deleted,[nrd]-01-1_v15.hive,ROOT\0x07_TYPE1_NON-ASCII\Hello,Hello,Hello : English,2017-09-25T14:22:52.584812,ACTIVE,NIST CFReDS UGRD-NRD,Retained non-ascii subkey
+REG-D-006,deleted,[nrd]-04-1_v15.hive,ROOT\0x05_TYPE1_VALUE-NAME-MAX\Value_V,VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV...VV-16383,"V Node - a value name has a limit of 16,383 characters",NA,DELETED,NIST CFReDS UGRD-NRD,16383-char value deleted from subkey
+REG-D-007,deleted,[nrd]-04-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x00 (NONE),b'none',2017-09-25T14:22:52.584812,ACTIVE,NIST CFReDS UGRD-NRD,Retained value 0x00 in nrd-04-1
+REG-D-008,deleted,[nrd]-04-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x01 (SZ),UTF-16LE NULL-terminated string,2017-09-25T14:22:52.584812,ACTIVE,NIST CFReDS UGRD-NRD,Retained value 0x01 in nrd-04-1
+REG-D-009,deleted,[nrd]-04-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x04 (DWORD-LE),4,2017-09-25T14:22:52.584812,ACTIVE,NIST CFReDS UGRD-NRD,Retained value 0x04 in nrd-04-1
+REG-D-010,deleted,[nrd]-04-1_v15.hive,ROOT\0x04_TYPE1_KEY-NAME-MAX,(default),Root Node - a key name has a limit of 255 characters,2017-09-25T14:22:52.584812,ACTIVE,NIST CFReDS UGRD-NRD,Retained default value in nrd-04-1
+REG-D-011,deleted,[nrd]-08-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x01 (SZ),UTF-EE NULL-terminated string,2017-09-25T14:23:03.323640,MODIFIED,NIST CFReDS UGRD-NRD,Shortened data; original slack in cell
+REG-D-012,deleted,[nrd]-08-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x03 (BINARY),b'bi\xee\xee data',2017-09-25T14:23:03.323640,MODIFIED,NIST CFReDS UGRD-NRD,Modified binary data with unallocated residual
+REG-D-013,deleted,[nrd]-08-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x02 (EXP_SZ),%SystemRoot%,2017-09-25T14:23:03.323640,ACTIVE,NIST CFReDS UGRD-NRD,Unmodified sibling value in modified hive
+REG-D-014,deleted,[nrd]-08-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x05 (DWORD-BE),83886080,2017-09-25T14:23:03.323640,ACTIVE,NIST CFReDS UGRD-NRD,Unmodified sibling value in modified hive
+REG-D-015,deleted,[nrd]-08-1_v15.hive,ROOT\0x07_TYPE1_NON-ASCII\¡Hola!,¡Hola!,¡Hola! : Spanish,2017-09-25T14:23:03.323640,ACTIVE,NIST CFReDS UGRD-NRD,Retained unicode value in modified hive
+REG-D-016,deleted,[nrd]-14-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x00 (NONE),b'none',2017-09-25T14:23:15.117282,ACTIVE,NIST CFReDS UGRD-NRD,Base value before renamed items
+REG-D-017,deleted,[nrd]-14-1_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x01 (SZ),UTF-16LE NULL-terminated string,2017-09-25T14:23:15.117282,ACTIVE,NIST CFReDS UGRD-NRD,Value check in renamed hive
+REG-D-018,deleted,[nrd]-14-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_1,(default),b'\x01',2017-09-25T14:23:15.117282,ACTIVE,NIST CFReDS UGRD-NRD,Active tree node in renamed hive
+REG-D-019,deleted,[nrd]-01-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_1\Node_1-1,(default),b'\x01\x01',2017-09-25T14:22:52.584812,ACTIVE,NIST CFReDS UGRD-NRD,Active tree leaf in deleted hive
+REG-D-020,deleted,[nrd]-01-1_v15.hive,ROOT\0x02_TYPE1_TREE\Node_2\Node_2-1,(default),b'\x02\x01',2017-09-25T14:22:52.584812,ACTIVE,NIST CFReDS UGRD-NRD,Active tree leaf in deleted hive
+REG-C-001,corrupted,[cr]-01_v15.hive,ROOT,NA,NA,NA,CORRUPTED,NIST CFReDS UGRD-CR,Corrupted HBIN with root key; parser expected to raise exception
+REG-C-002,corrupted,[cr]-01_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x01 (SZ),NA,NA,CORRUPTED,NIST CFReDS UGRD-CR,Unreachable subkey due to corrupted root hbin
+REG-C-003,corrupted,[cr]-01_v15.hive,ROOT\0x02_TYPE1_TREE,NA,NA,NA,CORRUPTED,NIST CFReDS UGRD-CR,Unreachable subkey due to corrupted root hbin
+REG-C-004,corrupted,[cr]-01_v15.hive,ROOT\0x07_TYPE1_NON-ASCII,NA,NA,NA,CORRUPTED,NIST CFReDS UGRD-CR,Unreachable subkey due to corrupted root hbin
+REG-C-005,corrupted,[cr]-01_v15.hive,HEADER,signature,b'regf',NA,ACTIVE,NIST CFReDS UGRD-CR,Header signature remains valid despite bin corruption
+REG-C-006,corrupted,[cr]-05_v15.hive,HEADER,signature,CORRUPTED,NA,CORRUPTED,NIST CFReDS UGRD-CR,Damaged regf signature; parser expected to abort on header check
+REG-C-007,corrupted,[cr]-05_v15.hive,ROOT,NA,NA,NA,CORRUPTED,NIST CFReDS UGRD-CR,Root inaccessible due to invalid header magic
+REG-C-008,corrupted,[cr]-05_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,NA,NA,NA,CORRUPTED,NIST CFReDS UGRD-CR,Inaccessible payload
+REG-C-009,corrupted,[cr]-05_v15.hive,ROOT\0x02_TYPE1_TREE,NA,NA,NA,CORRUPTED,NIST CFReDS UGRD-CR,Inaccessible tree payload
+REG-C-010,corrupted,[cr]-05_v15.hive,ROOT\0x07_TYPE1_NON-ASCII,NA,NA,NA,CORRUPTED,NIST CFReDS UGRD-CR,Inaccessible non-ascii payload
+REG-M-001,manipulated,[mr]-01.(1)_v15.hive,ROOT,NA,NA,NA,MANIPULATED,NIST CFReDS UGRD-MR,Original root key offset 0x20 tampered to 0x120
+REG-M-002,manipulated,[mr]-01.(1)_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x01 (SZ),UTF-16LE NULL-terminated string,2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-MR,Subkey masquerading as root key in manipulated hive
+REG-M-003,manipulated,[mr]-01.(1)_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x04 (DWORD-LE),4,2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-MR,Accessible value under fake root
+REG-M-004,manipulated,[mr]-01.(1)_v15.hive,ROOT\0x02_TYPE1_TREE,NA,NA,NA,MANIPULATED,NIST CFReDS UGRD-MR,Hidden from parser view because offset bypassed tree branch
+REG-M-005,manipulated,[mr]-01.(1)_v15.hive,ROOT\0x07_TYPE1_NON-ASCII,NA,NA,NA,MANIPULATED,NIST CFReDS UGRD-MR,Hidden from parser view due to root redirection
+REG-M-006,manipulated,[mr]-06.(1)_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x01 (SZ),TAMPERED_OR_EMPTY,NA,MANIPULATED,NIST CFReDS UGRD-MR,Value data offset modified to point to invalid cell/slack
+REG-M-007,manipulated,[mr]-06.(1)_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x00 (NONE),b'none',2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-MR,Unmodified sibling value in manipulated hive
+REG-M-008,manipulated,[mr]-06.(1)_v15.hive,ROOT\0x01_TYPE1_DATA-TYPES,VALUE 0x04 (DWORD-LE),4,2017-09-25T14:22:40.249934,ACTIVE,NIST CFReDS UGRD-MR,Unmodified sibling value in manipulated hive
+REG-M-009,manipulated,[mr]-06.(1)_v15.hive,ROOT\0x02_TYPE1_TREE\Node_1,(default),b'\x01',2017-09-25T14:22:41.935209,ACTIVE,NIST CFReDS UGRD-MR,Active sibling branch unaffected by value data tampering
+REG-M-010,manipulated,[mr]-06.(1)_v15.hive,ROOT\0x07_TYPE1_NON-ASCII\Hello,Hello,Hello : English,2017-09-25T14:22:51.162811,ACTIVE,NIST CFReDS UGRD-MR,Active unicode branch unaffected by value tampering

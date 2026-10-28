@@ -1,4 +1,100 @@
+# ==========================================
+# 1. Python Environment & Caches
+# ==========================================
 .venv/
+venv/
+env/
+ENV/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# 2. Operating System Files (macOS & Windows)
+# ==========================================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# ==========================================
+# 3. IDE & Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# 4. Digital Forensics: Working Copy & Bloat
+# ==========================================
+# Working copy (03_WORKING_COPY) adalah salinan lokal aktif (425 MB)
+# yang dibuat dengan menduplikasi 01_BASELINE. Cukup pertahankan foldernya.
+03_WORKING_COPY/*
+!03_WORKING_COPY/.gitkeep
+
+# Output dumps sementara yang berukuran sangat besar (bisa digenerate ulang)
+04_REGIPY_OUTPUT/*.json
+!04_REGIPY_OUTPUT/.gitkeep
+05_PYREG_OUTPUT/*.json
+!05_PYREG_OUTPUT/.gitkeep
+
+# Batas maksimum file GitHub (GitHub menolak file >= 100 MB)
+# File hive berikut berukuran 100.00 MB:
+*03-3_v13.hive
+*03-3*.hive
+
+# ==========================================
+# 5. Temporary & Backup Files
+# ==========================================
+*.tmp
+*.temp
+*.bak
+scratch/
+
+# ==========================================
+# 3. IDE & Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# 4. Digital Forensics: Working Copy & Bloat
+# ==========================================
+# Working copy (03_WORKING_COPY) adalah salinan lokal aktif (425 MB)
+# yang dibuat dengan menduplikasi 01_BASELINE. Cukup pertahankan foldernya.
+03_WORKING_COPY/*
+!03_WORKING_COPY/.gitkeep
+
+# Output dumps sementara yang berukuran sangat besar (bisa digenerate ulang)
+04_REGIPY_OUTPUT/*.json
+!04_REGIPY_OUTPUT/.gitkeep
+05_PYREG_OUTPUT/*.json
+!05_PYREG_OUTPUT/.gitkeep
+
+# Batas maksimum file GitHub (GitHub menolak file >= 100 MB)
+# File hive berikut berukuran 100.00 MB:
+*03-3_v13.hive
+*03-3*.hive
+
+# ==========================================
+# 5. Temporary & Backup Files
+# ==========================================
+*.tmp
+*.temp
+*.bak
+scratch/
+

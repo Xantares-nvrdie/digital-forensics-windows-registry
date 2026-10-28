@@ -1,0 +1,4 @@
+[original count] 0x0000000C (@ 0x00001148) --> [manipulated count] 0x00000008 (@ 0x00001148)
+[Target 'nk_cell']
+: {'self': 4384, 'base': <cftt_hive.HIVE_CELL_NK object at 0x02585210>, 'key_name': '0x01_TYPE1_DATA-TYPES'}
+

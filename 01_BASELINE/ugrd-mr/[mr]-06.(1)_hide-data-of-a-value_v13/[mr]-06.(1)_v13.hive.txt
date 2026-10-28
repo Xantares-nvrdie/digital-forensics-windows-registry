@@ -1,0 +1,4 @@
+[original size] 0x0000000B (@ 0x000012A8) --> [manipulated size] 0x00000000 (@ 0x000012A8)
+[Target 'vk_cell']
+: {'self': 4768, 'base': <cftt_hive.HIVE_CELL_VK object at 0x02A55E40>, 'value_name': 'VALUE 0x03 (BINARY)'}
+

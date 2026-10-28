@@ -1,0 +1,4 @@
+[original size] 0x00000068 (@ 0x00001120) --> [manipulated size] 0x0000005D (@ 0x00001120)
+[Target 'nk_cell']
+: {'key_name': '0x01_TYPE1_DATA-TYPES', 'base': <cftt_hive.HIVE_CELL_NK object at 0x01FC5210>, 'self': 4384}
+

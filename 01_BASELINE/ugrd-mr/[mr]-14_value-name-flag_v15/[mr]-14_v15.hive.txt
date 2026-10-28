@@ -1,0 +1,4 @@
+[original flags] 0x0000 (@ 0x000182AC) --> [manipulated flags] 0x0001 (@ 0x000182AC)
+[Target 'vk_cell']
+: {'value_name': 'Здравствуйте', 'base': <cftt_hive.HIVE_CELL_VK object at 0x02A55210>, 'self': 98968}
+

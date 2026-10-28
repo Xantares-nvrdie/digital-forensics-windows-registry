@@ -1,0 +1,4 @@
+[original flags] 0x0000 (@ 0x0001821E) --> [manipulated flags] 0x0020 (@ 0x0001821E)
+[Target 'nk_cell']
+: {'base': <cftt_hive.HIVE_CELL_NK object at 0x02A85210>, 'self': 98840, 'key_name': 'Здравствуйте'}
+
