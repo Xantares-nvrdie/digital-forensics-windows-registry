@@ -1,0 +1,45 @@
+artifact_id,category,hive_file,tool,key_found,value_found,value_match,timestamp_found,timestamp_match,parser_error,classification,notes
+REG-N-001,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-001,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-002,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-002,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-003,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-003,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-004,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-004,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-005,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-005,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-006,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-006,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-007,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-007,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-008,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-008,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-009,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-009,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-010,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-010,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-011,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-011,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-012,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-N-012,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
+REG-D-001,deleted,[nrd]-01-1_v15.hive,regipy,0,0,0,0,0,-,FN,Tool default tidak membaca unallocated space
+REG-D-001,deleted,[nrd]-01-1_v15.hive,python-registry,0,0,0,0,0,-,FN,Tool default tidak membaca unallocated space
+REG-D-002,deleted,[nrd]-01-1_v15.hive,regipy,0,0,0,0,0,-,FN,Tool default tidak membaca unallocated space
+REG-D-002,deleted,[nrd]-01-1_v15.hive,python-registry,0,0,0,0,0,-,FN,Tool default tidak membaca unallocated space
+REG-D-003,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
+REG-D-003,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
+REG-D-004,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
+REG-D-004,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
+REG-D-005,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
+REG-D-005,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
+REG-C-001,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,Parser crash gagal membaca root hbin
+REG-C-001,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,Parser crash gagal mendeteksi hbin
+REG-C-002,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,Unreachable akibat crash
+REG-C-002,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,Unreachable akibat crash
+REG-C-003,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,Unreachable akibat crash
+REG-C-003,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,Unreachable akibat crash
+REG-C-004,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,Unreachable akibat crash
+REG-C-004,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,Unreachable akibat crash
+REG-C-005,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,File tertolak sebelum verifikasi header
+REG-C-005,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,File tertolak sebelum verifikasi header

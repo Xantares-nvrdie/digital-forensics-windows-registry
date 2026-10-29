@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\PERKULIAHAN\PERKULIAHAAN\semester 5\DIGITALFORENSIK\new\digital-forensics-windows-registry\00_README\dump_pyregistry.py", line 35, in <module>
+    walk(reg.root())
+         ~~~~~~~~^^
+  File "C:\Users\shidqi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Registry\Registry.py", line 430, in root
+    return RegistryKey(self._regf.first_key())
+                       ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\shidqi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Registry\RegistryParse.py", line 504, in first_key
+    first_hbin = next(self.hbins())
+  File "C:\Users\shidqi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Registry\RegistryParse.py", line 515, in hbins
+    h = HBINBlock(self._buf, self.first_hbin_offset(), self)
+  File "C:\Users\shidqi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Registry\RegistryParse.py", line 1678, in __init__
+    raise ParseException("Invalid HBIN ID")
+Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID)
