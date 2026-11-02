@@ -1,0 +1,12 @@
+timestamp,evidence_id,action,from,to,hash/verification,operator,notes
+YYYY-MM-DD HH:MM,E001,download/create,source,01_BASELINE,SHA-256 ...,[Nama Operator],baseline archive downloaded
+YYYY-MM-DD HH:MM,E001,extract,01_BASELINE,01_BASELINE/ugrd-nr,match YES,[Nama Operator],extracted without deleting archive
+YYYY-MM-DD HH:MM,E001-W1,copy,01_BASELINE,03_WORKING_COPY,match YES,[Nama Operator],working copy created for analysis
+YYYY-MM-DD HH:MM,E002,download/create,source,01_BASELINE,SHA-256 ...,[Nama Operator],baseline archive downloaded
+YYYY-MM-DD HH:MM,E002-W1,copy,01_BASELINE,03_WORKING_COPY,match YES,[Nama Operator],working copy created for analysis
+YYYY-MM-DD HH:MM,E003,download/create,source,01_BASELINE,SHA-256 ...,[Nama Operator],baseline archive downloaded
+YYYY-MM-DD HH:MM,E003-W1,copy,01_BASELINE,03_WORKING_COPY,match YES,[Nama Operator],working copy created for analysis
+YYYY-MM-DD HH:MM,E004,download/create,source,01_BASELINE,SHA-256 ...,[Nama Operator],baseline archive downloaded
+YYYY-MM-DD HH:MM,E004-W1,copy,01_BASELINE,03_WORKING_COPY,match YES,[Nama Operator],working copy created for analysis
+YYYY-MM-DD HH:MM,E005,download/create,source,02_GROUND_TRUTH,SHA-256 ...,[Nama Operator],ground truth specification PDF
+

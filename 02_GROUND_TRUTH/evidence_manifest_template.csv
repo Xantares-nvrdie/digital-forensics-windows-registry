@@ -1,0 +1,11 @@
+evidence_id,filename,size_bytes,sha256,source,created/downloaded_at,status
+E001,01_BASELINE/cfreds-2017-winreg_ugrd-nr.7z,,,NIST CFReDS Portal,YYYY-MM-DD HH:MM,baseline
+E001-W1,03_WORKING_COPY/ugrd-nr/,,,copy of E001,YYYY-MM-DD HH:MM,working copy
+E002,01_BASELINE/cfreds-2017-winreg_ugrd-nrd.7z,,,NIST CFReDS Portal,YYYY-MM-DD HH:MM,baseline
+E002-W1,03_WORKING_COPY/ugrd-nrd/,,,copy of E002,YYYY-MM-DD HH:MM,working copy
+E003,01_BASELINE/cfreds-2017-winreg_ugrd-cr.7z,,,NIST CFReDS Portal,YYYY-MM-DD HH:MM,baseline
+E003-W1,03_WORKING_COPY/ugrd-cr/,,,copy of E003,YYYY-MM-DD HH:MM,working copy
+E004,01_BASELINE/cfreds-2017-winreg_ugrd-mr.7z,,,NIST CFReDS Portal,YYYY-MM-DD HH:MM,baseline
+E004-W1,03_WORKING_COPY/ugrd-mr/,,,copy of E004,YYYY-MM-DD HH:MM,working copy
+E005,02_GROUND_TRUTH/cfreds-2017-winreg.pdf,,,NIST CFReDS Portal,YYYY-MM-DD HH:MM,baseline
+
