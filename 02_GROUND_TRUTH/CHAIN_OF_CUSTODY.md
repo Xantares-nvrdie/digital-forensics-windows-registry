@@ -76,3 +76,4 @@
 File CSV resmi disimpan langsung di direktori yang sama:
 - `02_GROUND_TRUTH/evidence_manifest.csv`
 - `02_GROUND_TRUTH/chain_of_custody.csv`
+
