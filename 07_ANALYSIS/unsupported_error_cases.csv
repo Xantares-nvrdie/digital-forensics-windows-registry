@@ -1,0 +1,30 @@
+artifact_id,category,hive_file,tool,classification,issue_type,parser_error,notes
+REG-C-001,corrupted,[cr]-01_v15.hive,python-registry,TN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-001,corrupted,[cr]-01_v15.hive,regipy,TN,parser_crash,construct.core.ConstError,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-002,corrupted,[cr]-01_v15.hive,python-registry,TN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-002,corrupted,[cr]-01_v15.hive,regipy,TN,parser_crash,construct.core.ConstError,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-003,corrupted,[cr]-01_v15.hive,python-registry,TN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-003,corrupted,[cr]-01_v15.hive,regipy,TN,parser_crash,construct.core.ConstError,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-004,corrupted,[cr]-01_v15.hive,python-registry,TN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-004,corrupted,[cr]-01_v15.hive,regipy,TN,parser_crash,construct.core.ConstError,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-005,corrupted,[cr]-01_v15.hive,python-registry,FN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),Parser crash sebelum objek tercapai (FN sesuai rule)
+REG-C-005,corrupted,[cr]-01_v15.hive,regipy,FN,parser_crash,construct.core.ConstError,Parser crash sebelum objek tercapai (FN sesuai rule)
+REG-C-006,corrupted,[cr]-05_v15.hive,python-registry,TN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-006,corrupted,[cr]-05_v15.hive,regipy,TN,parser_crash,construct.core.ConstError,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-007,corrupted,[cr]-05_v15.hive,python-registry,TN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-007,corrupted,[cr]-05_v15.hive,regipy,TN,parser_crash,construct.core.ConstError,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-008,corrupted,[cr]-05_v15.hive,python-registry,TN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-008,corrupted,[cr]-05_v15.hive,regipy,TN,parser_crash,construct.core.ConstError,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-009,corrupted,[cr]-05_v15.hive,python-registry,TN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-009,corrupted,[cr]-05_v15.hive,regipy,TN,parser_crash,construct.core.ConstError,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-010,corrupted,[cr]-05_v15.hive,python-registry,TN,parser_crash,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-010,corrupted,[cr]-05_v15.hive,regipy,TN,parser_crash,construct.core.ConstError,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-D-014,deleted,[nrd]-08-1_v15.hive,regipy,FP,value_misread,-,Value berbeda dari expected (aktual='')
+REG-D-015,deleted,[nrd]-08-1_v15.hive,regipy,FN,name_encoding_mangled,-,Key tidak ditemukan pada output; ada key dengan nama termangle U+FFFD: 'root\\0x07_type1_non-ascii\\\ufffdhola!'
+REG-M-001,manipulated,[mr]-01.(1)_v15.hive,regipy,FP,tampered_object_reported_active,-,Objek MANIPULATED dilaporkan sebagai aktif
+REG-M-004,manipulated,[mr]-01.(1)_v15.hive,regipy,FP,tampered_object_reported_active,-,Objek MANIPULATED dilaporkan sebagai aktif
+REG-M-005,manipulated,[mr]-01.(1)_v15.hive,regipy,FP,tampered_object_reported_active,-,Objek MANIPULATED dilaporkan sebagai aktif
+REG-M-006,manipulated,[mr]-06.(1)_v15.hive,python-registry,FP,tampered_object_reported_active,-,"Objek MANIPULATED dilaporkan sebagai aktif; GT menunjuk VALUE 0x01 (SZ), tetapi tampering di hive ini ada pada VALUE 0x03 (BINARY) yang terbaca kosong tanpa error oleh kedua parser; perlu amandemen GT (lihat laporan)"
+REG-M-006,manipulated,[mr]-06.(1)_v15.hive,regipy,FP,tampered_object_reported_active,-,"Objek MANIPULATED dilaporkan sebagai aktif; GT menunjuk VALUE 0x01 (SZ), tetapi tampering di hive ini ada pada VALUE 0x03 (BINARY) yang terbaca kosong tanpa error oleh kedua parser; perlu amandemen GT (lihat laporan)"
+REG-N-006,normal,[nr]-01-1_v15.hive,regipy,FP,value_misread,-,Value berbeda dari expected (aktual='')
+REG-N-019,normal,[nr]-07-1_v15.hive,regipy,FN,name_encoding_mangled,-,Key tidak ditemukan pada output; ada key dengan nama termangle U+FFFD: 'root\\0x07_type1_non-ascii\\\ufffdhola!'
