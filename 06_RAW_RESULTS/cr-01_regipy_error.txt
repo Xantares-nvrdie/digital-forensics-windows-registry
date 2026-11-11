@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/bin/regipy-parse-header", line 9, in <module>
+    sys.exit(parse_header())
+             ~~~~~~~~~~~~^^
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/click/core.py", line 1631, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/click/core.py", line 1552, in main
+    rv = self.invoke(ctx)
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/click/core.py", line 1415, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/click/core.py", line 910, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/regipy/cli.py", line 33, in parse_header
+    registry_hive = RegistryHive(hive_path)
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/regipy/registry.py", line 153, in __init__
+    root_hbin = self.get_hbin_at_offset()
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/regipy/registry.py", line 277, in get_hbin_at_offset
+    return HBin(self._stream)
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/regipy/registry.py", line 340, in __init__
+    self.header = HBIN_HEADER.parse_stream(stream)  # type: ignore[union-attr]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/construct/core.py", line 416, in parse_stream
+    return self._parsereport(stream, context, "(parsing)")
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/construct/core.py", line 428, in _parsereport
+    obj = self._parse(stream, context, path)
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/construct/core.py", line 903, in _parse
+    return self.parsefunc(stream, context)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "", line 72, in parseall
+  File "", line 30, in parse_struct_1
+  File "", line 21, in parse_const
+construct.core.ConstError

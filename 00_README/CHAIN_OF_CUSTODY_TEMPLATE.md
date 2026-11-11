@@ -1,5 +1,5 @@
 # Form Chain of Custody & Evidence Manifest Digital
-**Modul 4: Windows Registry Forensics Menggunakan Reference Dataset**
+**Modul 4: Windows Registry Forensics Menggunakan Reference Dataset**  
 **Standar Acuan**: Panduan Riset Forensik Digital 26/27 (Bagian 4.2, 8.2, dan 8.3)
 
 ---
@@ -11,7 +11,8 @@
 | **Kode Kasus / Kelompok** | DF04 - Kelompok 4 |
 | **Topik Sub-Riset** | Windows Registry Forensics Menggunakan Reference Dataset |
 | **Objek Utama** | NIST CFReDS `cfreds-2017-winreg` (User-Generated Reference Data - UGRD) |
-| **Lingkungan Pengujian** | macOS (Darwin arm64) / Linux WSL |
+| **Penyusun / Operator** | Bintang Fajar Putra Pamungkas (2405073) & Shidqi Rasyad Firjatulah (2408156) |
+| **Lingkungan Pengujian** | macOS (Darwin arm64) / Linux WSL / Windows |
 | **Tools Hashing** | SHA-256 (`sha256sum` / `shasum -a 256` / `Get-FileHash`) |
 
 ---
@@ -25,17 +26,15 @@
 
 | evidence_id | filename | size_bytes | sha256 | source | created/downloaded_at | status |
 | :--- | :--- | :---: | :--- | :--- | :---: | :---: |
-| E001 | `01_BASELINE/cfreds-2017-winreg_ugrd-nr.7z` | | | NIST CFReDS Portal | YYYY-MM-DD HH:MM | baseline |
-| E001-W1 | `03_WORKING_COPY/ugrd-nr/` | | | copy of E001 | YYYY-MM-DD HH:MM | working copy |
-| E002 | `01_BASELINE/cfreds-2017-winreg_ugrd-nrd.7z` | | | NIST CFReDS Portal | YYYY-MM-DD HH:MM | baseline |
-| E002-W1 | `03_WORKING_COPY/ugrd-nrd/` | | | copy of E002 | YYYY-MM-DD HH:MM | working copy |
-| E003 | `01_BASELINE/cfreds-2017-winreg_ugrd-cr.7z` | | | NIST CFReDS Portal | YYYY-MM-DD HH:MM | baseline |
-| E003-W1 | `03_WORKING_COPY/ugrd-cr/` | | | copy of E003 | YYYY-MM-DD HH:MM | working copy |
-| E004 | `01_BASELINE/cfreds-2017-winreg_ugrd-mr.7z` | | | NIST CFReDS Portal | YYYY-MM-DD HH:MM | baseline |
-| E004-W1 | `03_WORKING_COPY/ugrd-mr/` | | | copy of E004 | YYYY-MM-DD HH:MM | working copy |
-| E005 | `02_GROUND_TRUTH/cfreds-2017-winreg.pdf` | | | NIST CFReDS Portal | YYYY-MM-DD HH:MM | baseline |
-
-*(Tambahkan baris sesuai file bukti atau subset hive yang dianalisis)*
+| E001 | `01_BASELINE/cfreds-2017-winreg_ugrd-nr.7z` | 4309307 | `2694d01c97e44ab0da3c7998000f6019caa5d9cd8cfe7edab5f2eeb4199d051c` | NIST CFReDS Portal | 2026-10-28 11:38 | baseline |
+| E001-W1 | `03_WORKING_COPY/ugrd-nr/` | 148799488 | `match YES` | copy of E001 | 2026-10-28 11:50 | working copy |
+| E002 | `01_BASELINE/cfreds-2017-winreg_ugrd-nrd.7z` | 83526 | `4893519f74426233d5891d3520f0aec85af5f2b7d83342de21ba9c73fb82e789` | NIST CFReDS Portal | 2026-10-28 11:38 | baseline |
+| E002-W1 | `03_WORKING_COPY/ugrd-nrd/` | 159962112 | `match YES` | copy of E002 | 2026-10-28 11:50 | working copy |
+| E003 | `01_BASELINE/cfreds-2017-winreg_ugrd-cr.7z` | 14929 | `65708184a8419890d8006326075ca7185146971c9e605d1ef9f94eb79fa6523d` | NIST CFReDS Portal | 2026-10-28 11:38 | baseline |
+| E003-W1 | `03_WORKING_COPY/ugrd-cr/` | 27534324 | `match YES` | copy of E003 | 2026-10-28 11:50 | working copy |
+| E004 | `01_BASELINE/cfreds-2017-winreg_ugrd-mr.7z` | 37926 | `e071c76d0b4cb85ea64c41a8b913d49c8bb88fa1dcfc27b9a4ee8327d951fcfc` | NIST CFReDS Portal | 2026-10-28 11:38 | baseline |
+| E004-W1 | `03_WORKING_COPY/ugrd-mr/` | 104510936 | `match YES` | copy of E004 | 2026-10-28 11:50 | working copy |
+| E005 | `02_GROUND_TRUTH/cfreds-2017-winreg.pdf` | 1854543 | `c6b72da66986d396af75d45044e677f7256ecfb8afc514be8a74571e56d0d9f3` | NIST CFReDS Portal | 2026-10-28 11:48 | baseline |
 
 ---
 
@@ -51,16 +50,22 @@
 
 | timestamp | evidence_id | action | from | to | hash/verification | operator | notes |
 | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| YYYY-MM-DD HH:MM | E001 | download/create | source | 01_BASELINE | SHA-256 ... | [Nama Operator] | baseline archive downloaded |
-| YYYY-MM-DD HH:MM | E001 | extract | 01_BASELINE | 01_BASELINE/ugrd-nr | match YES | [Nama Operator] | extracted without deleting archive |
-| YYYY-MM-DD HH:MM | E001-W1 | copy | 01_BASELINE | 03_WORKING_COPY | match YES | [Nama Operator] | working copy created for analysis |
-| YYYY-MM-DD HH:MM | E002 | download/create | source | 01_BASELINE | SHA-256 ... | [Nama Operator] | baseline archive downloaded |
-| YYYY-MM-DD HH:MM | E002-W1 | copy | 01_BASELINE | 03_WORKING_COPY | match YES | [Nama Operator] | working copy created for analysis |
-| YYYY-MM-DD HH:MM | E003 | download/create | source | 01_BASELINE | SHA-256 ... | [Nama Operator] | baseline archive downloaded |
-| YYYY-MM-DD HH:MM | E003-W1 | copy | 01_BASELINE | 03_WORKING_COPY | match YES | [Nama Operator] | working copy created for analysis |
-| YYYY-MM-DD HH:MM | E004 | download/create | source | 01_BASELINE | SHA-256 ... | [Nama Operator] | baseline archive downloaded |
-| YYYY-MM-DD HH:MM | E004-W1 | copy | 01_BASELINE | 03_WORKING_COPY | match YES | [Nama Operator] | working copy created for analysis |
-| YYYY-MM-DD HH:MM | E005 | download/create | source | 02_GROUND_TRUTH | SHA-256 ... | [Nama Operator] | ground truth specification PDF |
+| 2026-10-28 11:38 | E001 | download/create | source | 01_BASELINE | `2694d01c97e44ab0da3c7998000f6019caa5d9cd8cfe7edab5f2eeb4199d051c` | Bintang Fajar / Shidqi Rasyad | baseline archive downloaded |
+| 2026-10-28 11:49 | E001 | extract | 01_BASELINE | 01_BASELINE/ugrd-nr | match YES | Bintang Fajar / Shidqi Rasyad | extracted without deleting archive |
+| 2026-10-28 11:50 | E001-W1 | copy | 01_BASELINE | 03_WORKING_COPY | match YES | Bintang Fajar / Shidqi Rasyad | working copy created for analysis |
+| 2026-10-28 11:38 | E002 | download/create | source | 01_BASELINE | `4893519f74426233d5891d3520f0aec85af5f2b7d83342de21ba9c73fb82e789` | Bintang Fajar / Shidqi Rasyad | baseline archive downloaded |
+| 2026-10-28 11:49 | E002 | extract | 01_BASELINE | 01_BASELINE/ugrd-nrd | match YES | Bintang Fajar / Shidqi Rasyad | extracted without deleting archive |
+| 2026-10-28 11:50 | E002-W1 | copy | 01_BASELINE | 03_WORKING_COPY | match YES | Bintang Fajar / Shidqi Rasyad | working copy created for analysis |
+| 2026-10-28 11:38 | E003 | download/create | source | 01_BASELINE | `65708184a8419890d8006326075ca7185146971c9e605d1ef9f94eb79fa6523d` | Bintang Fajar / Shidqi Rasyad | baseline archive downloaded |
+| 2026-10-28 11:49 | E003 | extract | 01_BASELINE | 01_BASELINE/ugrd-cr | match YES | Bintang Fajar / Shidqi Rasyad | extracted without deleting archive |
+| 2026-10-28 11:50 | E003-W1 | copy | 01_BASELINE | 03_WORKING_COPY | match YES | Bintang Fajar / Shidqi Rasyad | working copy created for analysis |
+| 2026-10-28 11:38 | E004 | download/create | source | 01_BASELINE | `e071c76d0b4cb85ea64c41a8b913d49c8bb88fa1dcfc27b9a4ee8327d951fcfc` | Bintang Fajar / Shidqi Rasyad | baseline archive downloaded |
+| 2026-10-28 11:49 | E004 | extract | 01_BASELINE | 01_BASELINE/ugrd-mr | match YES | Bintang Fajar / Shidqi Rasyad | extracted without deleting archive |
+| 2026-10-28 11:50 | E004-W1 | copy | 01_BASELINE | 03_WORKING_COPY | match YES | Bintang Fajar / Shidqi Rasyad | working copy created for analysis |
+| 2026-10-28 11:48 | E005 | download/create | source | 02_GROUND_TRUTH | `c6b72da66986d396af75d45044e677f7256ecfb8afc514be8a74571e56d0d9f3` | Bintang Fajar / Shidqi Rasyad | ground truth specification PDF |
+| 2026-10-28 12:06 | E001-W1 | parsing_smoketest | 03_WORKING_COPY | 00_README | match YES | Bintang Fajar / Shidqi Rasyad | smoke test regipy-dump and python-registry on [nr]-02-1_v15.hive |
+| 2026-10-28 12:18 | GT-01 | catalog_ground_truth | 02_GROUND_TRUTH | 02_GROUND_TRUTH/registry_expected.csv | match YES | Bintang Fajar / Shidqi Rasyad | cataloged 62 expected test points from NIST GT PDF |
+| 2026-10-28 12:33 | EXP-01 | preregistration | 00_README | 00_README/EXPERIMENTAL_DESIGN.md | match YES | Bintang Fajar / Shidqi Rasyad | finalized Week 2 experimental matrix and research design |
 
 ---
 
@@ -71,9 +76,34 @@ Jika ingin disimpan atau diserahkan dalam format CSV terpisah:
 ### A. Header `evidence_manifest.csv` (Bagian 8.2)
 ```csv
 evidence_id,filename,size_bytes,sha256,source,created/downloaded_at,status
+E001,01_BASELINE/cfreds-2017-winreg_ugrd-nr.7z,4309307,2694d01c97e44ab0da3c7998000f6019caa5d9cd8cfe7edab5f2eeb4199d051c,NIST CFReDS Portal,2026-10-28 11:38,baseline
+E001-W1,03_WORKING_COPY/ugrd-nr/,148799488,match YES,copy of E001,2026-10-28 11:50,working copy
+E002,01_BASELINE/cfreds-2017-winreg_ugrd-nrd.7z,83526,4893519f74426233d5891d3520f0aec85af5f2b7d83342de21ba9c73fb82e789,NIST CFReDS Portal,2026-10-28 11:38,baseline
+E002-W1,03_WORKING_COPY/ugrd-nrd/,159962112,match YES,copy of E002,2026-10-28 11:50,working copy
+E003,01_BASELINE/cfreds-2017-winreg_ugrd-cr.7z,14929,65708184a8419890d8006326075ca7185146971c9e605d1ef9f94eb79fa6523d,NIST CFReDS Portal,2026-10-28 11:38,baseline
+E003-W1,03_WORKING_COPY/ugrd-cr/,27534324,match YES,copy of E003,2026-10-28 11:50,working copy
+E004,01_BASELINE/cfreds-2017-winreg_ugrd-mr.7z,37926,e071c76d0b4cb85ea64c41a8b913d49c8bb88fa1dcfc27b9a4ee8327d951fcfc,NIST CFReDS Portal,2026-10-28 11:38,baseline
+E004-W1,03_WORKING_COPY/ugrd-mr/,104510936,match YES,copy of E004,2026-10-28 11:50,working copy
+E005,02_GROUND_TRUTH/cfreds-2017-winreg.pdf,1854543,c6b72da66986d396af75d45044e677f7256ecfb8afc514be8a74571e56d0d9f3,NIST CFReDS Portal,2026-10-28 11:48,baseline
 ```
 
 ### B. Header `chain_of_custody.csv` (Bagian 8.3)
 ```csv
 timestamp,evidence_id,action,from,to,hash/verification,operator,notes
+2026-10-28 11:38,E001,download/create,source,01_BASELINE,2694d01c97e44ab0da3c7998000f6019caa5d9cd8cfe7edab5f2eeb4199d051c,Bintang Fajar / Shidqi Rasyad,baseline archive downloaded
+2026-10-28 11:49,E001,extract,01_BASELINE,01_BASELINE/ugrd-nr,match YES,Bintang Fajar / Shidqi Rasyad,extracted without deleting archive
+2026-10-28 11:50,E001-W1,copy,01_BASELINE,03_WORKING_COPY,match YES,Bintang Fajar / Shidqi Rasyad,working copy created for analysis
+2026-10-28 11:38,E002,download/create,source,01_BASELINE,4893519f74426233d5891d3520f0aec85af5f2b7d83342de21ba9c73fb82e789,Bintang Fajar / Shidqi Rasyad,baseline archive downloaded
+2026-10-28 11:49,E002,extract,01_BASELINE,01_BASELINE/ugrd-nrd,match YES,Bintang Fajar / Shidqi Rasyad,extracted without deleting archive
+2026-10-28 11:50,E002-W1,copy,01_BASELINE,03_WORKING_COPY,match YES,Bintang Fajar / Shidqi Rasyad,working copy created for analysis
+2026-10-28 11:38,E003,download/create,source,01_BASELINE,65708184a8419890d8006326075ca7185146971c9e605d1ef9f94eb79fa6523d,Bintang Fajar / Shidqi Rasyad,baseline archive downloaded
+2026-10-28 11:49,E003,extract,01_BASELINE,01_BASELINE/ugrd-cr,match YES,Bintang Fajar / Shidqi Rasyad,extracted without deleting archive
+2026-10-28 11:50,E003-W1,copy,01_BASELINE,03_WORKING_COPY,match YES,Bintang Fajar / Shidqi Rasyad,working copy created for analysis
+2026-10-28 11:38,E004,download/create,source,01_BASELINE,e071c76d0b4cb85ea64c41a8b913d49c8bb88fa1dcfc27b9a4ee8327d951fcfc,Bintang Fajar / Shidqi Rasyad,baseline archive downloaded
+2026-10-28 11:49,E004,extract,01_BASELINE,01_BASELINE/ugrd-mr,match YES,Bintang Fajar / Shidqi Rasyad,extracted without deleting archive
+2026-10-28 11:50,E004-W1,copy,01_BASELINE,03_WORKING_COPY,match YES,Bintang Fajar / Shidqi Rasyad,working copy created for analysis
+2026-10-28 11:48,E005,download/create,source,02_GROUND_TRUTH,c6b72da66986d396af75d45044e677f7256ecfb8afc514be8a74571e56d0d9f3,Bintang Fajar / Shidqi Rasyad,ground truth specification PDF
+2026-10-28 12:06,E001-W1,parsing_smoketest,03_WORKING_COPY,00_README,match YES,Bintang Fajar / Shidqi Rasyad,smoke test regipy-dump and python-registry on [nr]-02-1_v15.hive
+2026-10-28 12:18,GT-01,catalog_ground_truth,02_GROUND_TRUTH,02_GROUND_TRUTH/registry_expected.csv,match YES,Bintang Fajar / Shidqi Rasyad,cataloged 62 expected test points from NIST GT PDF
+2026-10-28 12:33,EXP-01,preregistration,00_README,00_README/EXPERIMENTAL_DESIGN.md,match YES,Bintang Fajar / Shidqi Rasyad,finalized Week 2 experimental matrix and research design
 ```
