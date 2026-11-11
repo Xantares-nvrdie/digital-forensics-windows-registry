@@ -66,6 +66,8 @@
 | 2026-10-28 12:06 | E001-W1 | parsing_smoketest | 03_WORKING_COPY | 00_README | match YES | Bintang Fajar / Shidqi Rasyad | smoke test regipy-dump and python-registry on [nr]-02-1_v15.hive |
 | 2026-10-28 12:18 | GT-01 | catalog_ground_truth | 02_GROUND_TRUTH | 02_GROUND_TRUTH/registry_expected.csv | match YES | Bintang Fajar / Shidqi Rasyad | cataloged 62 expected test points from NIST GT PDF |
 | 2026-10-28 12:33 | EXP-01 | preregistration | 00_README | 00_README/EXPERIMENTAL_DESIGN.md | match YES | Bintang Fajar / Shidqi Rasyad | finalized Week 2 experimental matrix and research design |
+| 2026-10-29 11:03 | E001-W1;E002-W1;E003-W1 | pilot_extraction | 03_WORKING_COPY | 04_REGIPY_OUTPUT/05_PYREG_OUTPUT | match YES | Shidqi Rasyad | Week 3 pilot extraction on [nr]-01-1 [nrd]-01-1 and crash test on [cr]-01 |
+| 2026-11-11 21:28 | E001-W1..E004-W1 | mass_cross_validation_extraction | 03_WORKING_COPY | 04_REGIPY_OUTPUT/05_PYREG_OUTPUT | match YES | Bintang Fajar | Week 4 mass traversal across all 11 hives with python-registry and regipy; captured crash tracebacks for corrupted hives |
 
 ---
 
@@ -106,5 +108,7 @@ timestamp,evidence_id,action,from,to,hash/verification,operator,notes
 2026-10-28 12:06,E001-W1,parsing_smoketest,03_WORKING_COPY,00_README,match YES,Bintang Fajar / Shidqi Rasyad,smoke test regipy-dump and python-registry on [nr]-02-1_v15.hive
 2026-10-28 12:18,GT-01,catalog_ground_truth,02_GROUND_TRUTH,02_GROUND_TRUTH/registry_expected.csv,match YES,Bintang Fajar / Shidqi Rasyad,cataloged 62 expected test points from NIST GT PDF
 2026-10-28 12:33,EXP-01,preregistration,00_README,00_README/EXPERIMENTAL_DESIGN.md,match YES,Bintang Fajar / Shidqi Rasyad,finalized Week 2 experimental matrix and research design
+2026-10-29 11:03,E001-W1;E002-W1;E003-W1,pilot_extraction,03_WORKING_COPY,04_REGIPY_OUTPUT/05_PYREG_OUTPUT,match YES,Shidqi Rasyad,Week 3 pilot extraction on [nr]-01-1 [nrd]-01-1 and crash test on [cr]-01
+2026-11-11 21:28,E001-W1..E004-W1,mass_cross_validation_extraction,03_WORKING_COPY,04_REGIPY_OUTPUT/05_PYREG_OUTPUT,match YES,Bintang Fajar,Week 4 mass traversal across all 11 hives with python-registry and regipy; captured crash tracebacks for corrupted hives
 ```
 
