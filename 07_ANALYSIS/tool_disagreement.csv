@@ -1,0 +1,8 @@
+artifact_id,category,hive_file,classification_regipy,classification_pyreg
+REG-N-006,normal,[nr]-01-1_v15.hive,FP,TP
+REG-N-019,normal,[nr]-07-1_v15.hive,FN,TP
+REG-D-014,deleted,[nrd]-08-1_v15.hive,FP,TP
+REG-D-015,deleted,[nrd]-08-1_v15.hive,FN,TP
+REG-M-001,manipulated,[mr]-01.(1)_v15.hive,FP,TN
+REG-M-004,manipulated,[mr]-01.(1)_v15.hive,FP,TN
+REG-M-005,manipulated,[mr]-01.(1)_v15.hive,FP,TN

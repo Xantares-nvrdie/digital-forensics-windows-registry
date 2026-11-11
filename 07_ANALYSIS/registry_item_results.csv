@@ -1,45 +1,125 @@
 artifact_id,category,hive_file,tool,key_found,value_found,value_match,timestamp_found,timestamp_match,parser_error,classification,notes
-REG-N-001,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-001,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-002,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-002,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-003,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-003,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-004,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-004,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-005,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-005,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-006,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-006,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-007,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-007,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-008,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-008,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-009,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-009,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-010,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-010,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-011,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-011,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-012,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-N-012,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Terekstrak sempurna
-REG-D-001,deleted,[nrd]-01-1_v15.hive,regipy,0,0,0,0,0,-,FN,Tool default tidak membaca unallocated space
-REG-D-001,deleted,[nrd]-01-1_v15.hive,python-registry,0,0,0,0,0,-,FN,Tool default tidak membaca unallocated space
-REG-D-002,deleted,[nrd]-01-1_v15.hive,regipy,0,0,0,0,0,-,FN,Tool default tidak membaca unallocated space
-REG-D-002,deleted,[nrd]-01-1_v15.hive,python-registry,0,0,0,0,0,-,FN,Tool default tidak membaca unallocated space
-REG-D-003,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
-REG-D-003,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
-REG-D-004,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
-REG-D-004,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
-REG-D-005,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
-REG-D-005,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Key aktif di dalam file terhapus tetap terbaca
-REG-C-001,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,Parser crash gagal membaca root hbin
-REG-C-001,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,Parser crash gagal mendeteksi hbin
-REG-C-002,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,Unreachable akibat crash
-REG-C-002,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,Unreachable akibat crash
-REG-C-003,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,Unreachable akibat crash
-REG-C-003,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,Unreachable akibat crash
-REG-C-004,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,Unreachable akibat crash
-REG-C-004,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,Unreachable akibat crash
-REG-C-005,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,0,construct.core.ParseError,FN,File tertolak sebelum verifikasi header
-REG-C-005,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,0,Invalid HBIN ID,FN,File tertolak sebelum verifikasi header
+REG-N-001,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-001,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-002,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-002,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-003,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-003,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-004,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-004,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-005,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-005,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-006,normal,[nr]-01-1_v15.hive,regipy,1,1,0,1,1,-,FP,Value berbeda dari expected (aktual='')
+REG-N-006,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-007,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-007,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-008,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-008,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-009,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-009,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-010,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-010,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-011,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-011,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-012,normal,[nr]-01-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-012,normal,[nr]-01-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-013,normal,[nr]-02-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1 us
+REG-N-013,normal,[nr]-02-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-014,normal,[nr]-02-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1 us
+REG-N-014,normal,[nr]-02-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-015,normal,[nr]-02-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1 us
+REG-N-015,normal,[nr]-02-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-016,normal,[nr]-02-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1 us
+REG-N-016,normal,[nr]-02-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-017,normal,[nr]-02-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1 us
+REG-N-017,normal,[nr]-02-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-018,normal,[nr]-07-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1 us
+REG-N-018,normal,[nr]-07-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-019,normal,[nr]-07-1_v15.hive,regipy,0,0,0,0,0,-,FN,Key tidak ditemukan pada output; ada key dengan nama termangle U+FFFD: 'root\\0x07_type1_non-ascii\\\ufffdhola!'
+REG-N-019,normal,[nr]-07-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-020,normal,[nr]-07-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1 us
+REG-N-020,normal,[nr]-07-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-021,normal,[nr]-07-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1 us
+REG-N-021,normal,[nr]-07-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-N-022,normal,[nr]-07-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1 us
+REG-N-022,normal,[nr]-07-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-001,deleted,[nrd]-01-1_v15.hive,regipy,0,NA,NA,0,NA,-,TN,Objek DELETED tidak dilaporkan
+REG-D-001,deleted,[nrd]-01-1_v15.hive,python-registry,0,NA,NA,0,NA,-,TN,Objek DELETED tidak dilaporkan
+REG-D-002,deleted,[nrd]-01-1_v15.hive,regipy,0,NA,NA,0,NA,-,TN,Objek DELETED tidak dilaporkan
+REG-D-002,deleted,[nrd]-01-1_v15.hive,python-registry,0,NA,NA,0,NA,-,TN,Objek DELETED tidak dilaporkan
+REG-D-003,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 140440 us
+REG-D-003,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 140440 us
+REG-D-004,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 140440 us
+REG-D-004,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 140440 us
+REG-D-005,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 1017288 us
+REG-D-005,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 1017287 us
+REG-D-006,deleted,[nrd]-04-1_v15.hive,regipy,1,0,0,1,NA,-,TN,Objek DELETED tidak dilaporkan
+REG-D-006,deleted,[nrd]-04-1_v15.hive,python-registry,1,0,0,1,NA,-,TN,Objek DELETED tidak dilaporkan
+REG-D-007,deleted,[nrd]-04-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-007,deleted,[nrd]-04-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-008,deleted,[nrd]-04-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-008,deleted,[nrd]-04-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-009,deleted,[nrd]-04-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-009,deleted,[nrd]-04-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-010,deleted,[nrd]-04-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 483736 us
+REG-D-010,deleted,[nrd]-04-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 483737 us
+REG-D-011,deleted,[nrd]-08-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-011,deleted,[nrd]-08-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-012,deleted,[nrd]-08-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-012,deleted,[nrd]-08-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-013,deleted,[nrd]-08-1_v15.hive,regipy,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-013,deleted,[nrd]-08-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-014,deleted,[nrd]-08-1_v15.hive,regipy,1,1,0,1,1,-,FP,Value berbeda dari expected (aktual='')
+REG-D-014,deleted,[nrd]-08-1_v15.hive,python-registry,1,1,1,1,1,-,TP,Cocok dengan ground truth
+REG-D-015,deleted,[nrd]-08-1_v15.hive,regipy,0,0,0,0,0,-,FN,Key tidak ditemukan pada output; ada key dengan nama termangle U+FFFD: 'root\\0x07_type1_non-ascii\\\ufffdhola!'
+REG-D-015,deleted,[nrd]-08-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 9721541 us
+REG-D-016,deleted,[nrd]-14-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 14734644 us
+REG-D-016,deleted,[nrd]-14-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 14734645 us
+REG-D-017,deleted,[nrd]-14-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 14734644 us
+REG-D-017,deleted,[nrd]-14-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 14734645 us
+REG-D-018,deleted,[nrd]-14-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 22392030 us
+REG-D-018,deleted,[nrd]-14-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 22392030 us
+REG-D-019,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 140440 us
+REG-D-019,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 140440 us
+REG-D-020,deleted,[nrd]-01-1_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 140440 us
+REG-D-020,deleted,[nrd]-01-1_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 140440 us
+REG-C-001,corrupted,[cr]-01_v15.hive,regipy,0,NA,NA,0,NA,construct.core.ConstError,TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-001,corrupted,[cr]-01_v15.hive,python-registry,0,NA,NA,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-002,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,NA,construct.core.ConstError,TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-002,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-003,corrupted,[cr]-01_v15.hive,regipy,0,NA,NA,0,NA,construct.core.ConstError,TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-003,corrupted,[cr]-01_v15.hive,python-registry,0,NA,NA,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-004,corrupted,[cr]-01_v15.hive,regipy,0,NA,NA,0,NA,construct.core.ConstError,TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-004,corrupted,[cr]-01_v15.hive,python-registry,0,NA,NA,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-005,corrupted,[cr]-01_v15.hive,regipy,0,0,0,0,NA,construct.core.ConstError,FN,Parser crash sebelum objek tercapai (FN sesuai rule)
+REG-C-005,corrupted,[cr]-01_v15.hive,python-registry,0,0,0,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID),FN,Parser crash sebelum objek tercapai (FN sesuai rule)
+REG-C-006,corrupted,[cr]-05_v15.hive,regipy,0,0,0,0,NA,construct.core.ConstError,TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-006,corrupted,[cr]-05_v15.hive,python-registry,0,0,0,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-007,corrupted,[cr]-05_v15.hive,regipy,0,NA,NA,0,NA,construct.core.ConstError,TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-007,corrupted,[cr]-05_v15.hive,python-registry,0,NA,NA,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-008,corrupted,[cr]-05_v15.hive,regipy,0,NA,NA,0,NA,construct.core.ConstError,TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-008,corrupted,[cr]-05_v15.hive,python-registry,0,NA,NA,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-009,corrupted,[cr]-05_v15.hive,regipy,0,NA,NA,0,NA,construct.core.ConstError,TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-009,corrupted,[cr]-05_v15.hive,python-registry,0,NA,NA,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-010,corrupted,[cr]-05_v15.hive,regipy,0,NA,NA,0,NA,construct.core.ConstError,TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-C-010,corrupted,[cr]-05_v15.hive,python-registry,0,NA,NA,0,NA,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID),TN,Parser berhenti dengan exception; objek CORRUPTED tidak dilaporkan aktif
+REG-M-001,manipulated,[mr]-01.(1)_v15.hive,regipy,1,NA,NA,1,NA,-,FP,Objek MANIPULATED dilaporkan sebagai aktif
+REG-M-001,manipulated,[mr]-01.(1)_v15.hive,python-registry,0,NA,NA,0,NA,-,TN,Objek MANIPULATED tidak dilaporkan
+REG-M-002,manipulated,[mr]-01.(1)_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 12334878 us
+REG-M-002,manipulated,[mr]-01.(1)_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 12334878 us
+REG-M-003,manipulated,[mr]-01.(1)_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 12334878 us
+REG-M-003,manipulated,[mr]-01.(1)_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 12334878 us
+REG-M-004,manipulated,[mr]-01.(1)_v15.hive,regipy,1,NA,NA,1,NA,-,FP,Objek MANIPULATED dilaporkan sebagai aktif
+REG-M-004,manipulated,[mr]-01.(1)_v15.hive,python-registry,0,NA,NA,0,NA,-,TN,Objek MANIPULATED tidak dilaporkan
+REG-M-005,manipulated,[mr]-01.(1)_v15.hive,regipy,1,NA,NA,1,NA,-,FP,Objek MANIPULATED dilaporkan sebagai aktif
+REG-M-005,manipulated,[mr]-01.(1)_v15.hive,python-registry,0,NA,NA,0,NA,-,TN,Objek MANIPULATED tidak dilaporkan
+REG-M-006,manipulated,[mr]-06.(1)_v15.hive,regipy,1,1,NA,1,NA,-,FP,"Objek MANIPULATED dilaporkan sebagai aktif; GT menunjuk VALUE 0x01 (SZ), tetapi tampering di hive ini ada pada VALUE 0x03 (BINARY) yang terbaca kosong tanpa error oleh kedua parser; perlu amandemen GT (lihat laporan)"
+REG-M-006,manipulated,[mr]-06.(1)_v15.hive,python-registry,1,1,NA,1,NA,-,FP,"Objek MANIPULATED dilaporkan sebagai aktif; GT menunjuk VALUE 0x01 (SZ), tetapi tampering di hive ini ada pada VALUE 0x03 (BINARY) yang terbaca kosong tanpa error oleh kedua parser; perlu amandemen GT (lihat laporan)"
+REG-M-007,manipulated,[mr]-06.(1)_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 12334878 us
+REG-M-007,manipulated,[mr]-06.(1)_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 12334878 us
+REG-M-008,manipulated,[mr]-06.(1)_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 12334878 us
+REG-M-008,manipulated,[mr]-06.(1)_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 12334878 us
+REG-M-009,manipulated,[mr]-06.(1)_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 10790043 us
+REG-M-009,manipulated,[mr]-06.(1)_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 10790043 us
+REG-M-010,manipulated,[mr]-06.(1)_v15.hive,regipy,1,1,1,1,0,-,TP,selisih timestamp 2439289 us
+REG-M-010,manipulated,[mr]-06.(1)_v15.hive,python-registry,1,1,1,1,0,-,TP,selisih timestamp 2439288 us
