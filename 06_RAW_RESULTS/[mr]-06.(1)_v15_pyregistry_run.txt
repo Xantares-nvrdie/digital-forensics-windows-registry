@@ -1,0 +1,5 @@
+COMMAND: python 00_README/dump_pyregistry.py 03_WORKING_COPY/ugrd-mr/[mr]-06.(1)_hide-data-of-a-value_v15/[mr]-06.(1)_v15.hive 05_PYREG_OUTPUT/[mr]-06.(1)_v15_pyregistry.json
+RETURN CODE: 0
+STDOUT:
+Wrote 543 key records to 05_PYREG_OUTPUT/[mr]-06.(1)_v15_pyregistry.json
+

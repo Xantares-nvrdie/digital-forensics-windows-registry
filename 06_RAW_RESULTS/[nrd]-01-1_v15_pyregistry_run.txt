@@ -1,0 +1,5 @@
+COMMAND: python 00_README/dump_pyregistry.py 03_WORKING_COPY/ugrd-nrd/[nrd]-01-1_delete-keys-with-values-but-without-subkeys_v15/[nrd]-01-1_v15.hive 05_PYREG_OUTPUT/[nrd]-01-1_v15_pyregistry.json
+RETURN CODE: 0
+STDOUT:
+Wrote 541 key records to 05_PYREG_OUTPUT/[nrd]-01-1_v15_pyregistry.json
+

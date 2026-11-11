@@ -1,0 +1,5 @@
+COMMAND: python 00_README/dump_pyregistry.py 03_WORKING_COPY/ugrd-nrd/[nrd]-04-1_delete-a-value-with-normal-data_v15/[nrd]-04-1_v15.hive 05_PYREG_OUTPUT/[nrd]-04-1_v15_pyregistry.json
+RETURN CODE: 0
+STDOUT:
+Wrote 543 key records to 05_PYREG_OUTPUT/[nrd]-04-1_v15_pyregistry.json
+

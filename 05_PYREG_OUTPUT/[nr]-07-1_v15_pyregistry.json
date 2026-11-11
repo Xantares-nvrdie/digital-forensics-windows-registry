@@ -1,0 +1,135 @@
+[
+  {
+    "key_path": "ROOT",
+    "timestamp": "2017-09-25T14:22:51.162811",
+    "values": []
+  },
+  {
+    "key_path": "ROOT\\0x07_TYPE1_NON-ASCII",
+    "timestamp": "2017-09-25T14:22:51.162811",
+    "values": [
+      {
+        "name": "TEST 1",
+        "value": "Registry hive structure parsing",
+        "type": "1"
+      },
+      {
+        "name": "TEST 2",
+        "value": "Non-ASCII characters",
+        "type": "1"
+      }
+    ]
+  },
+  {
+    "key_path": "ROOT\\0x07_TYPE1_NON-ASCII\\Hello",
+    "timestamp": "2017-09-25T14:22:51.162811",
+    "values": [
+      {
+        "name": "(default)",
+        "value": "English",
+        "type": "1"
+      },
+      {
+        "name": "Hello",
+        "value": "Hello : English",
+        "type": "1"
+      }
+    ]
+  },
+  {
+    "key_path": "ROOT\\0x07_TYPE1_NON-ASCII\\¡Hola!",
+    "timestamp": "2017-09-25T14:22:51.162811",
+    "values": [
+      {
+        "name": "(default)",
+        "value": "Spanish",
+        "type": "1"
+      },
+      {
+        "name": "¡Hola!",
+        "value": "¡Hola! : Spanish",
+        "type": "1"
+      }
+    ]
+  },
+  {
+    "key_path": "ROOT\\0x07_TYPE1_NON-ASCII\\Здравствуйте",
+    "timestamp": "2017-09-25T14:22:51.162811",
+    "values": [
+      {
+        "name": "(default)",
+        "value": "Russian",
+        "type": "1"
+      },
+      {
+        "name": "Здравствуйте",
+        "value": "Здравствуйте : Russian",
+        "type": "1"
+      }
+    ]
+  },
+  {
+    "key_path": "ROOT\\0x07_TYPE1_NON-ASCII\\नमस्ते",
+    "timestamp": "2017-09-25T14:22:51.162811",
+    "values": [
+      {
+        "name": "(default)",
+        "value": "Hindi",
+        "type": "1"
+      },
+      {
+        "name": "नमस्ते",
+        "value": "नमस्ते : Hindi",
+        "type": "1"
+      }
+    ]
+  },
+  {
+    "key_path": "ROOT\\0x07_TYPE1_NON-ASCII\\こんにちは",
+    "timestamp": "2017-09-25T14:22:51.162811",
+    "values": [
+      {
+        "name": "(default)",
+        "value": "Japanese",
+        "type": "1"
+      },
+      {
+        "name": "こんにちは",
+        "value": "こんにちは : Japanese",
+        "type": "1"
+      }
+    ]
+  },
+  {
+    "key_path": "ROOT\\0x07_TYPE1_NON-ASCII\\您好",
+    "timestamp": "2017-09-25T14:22:51.162811",
+    "values": [
+      {
+        "name": "(default)",
+        "value": "Chinese",
+        "type": "1"
+      },
+      {
+        "name": "您好",
+        "value": "您好 : Chinese",
+        "type": "1"
+      }
+    ]
+  },
+  {
+    "key_path": "ROOT\\0x07_TYPE1_NON-ASCII\\안녕하세요",
+    "timestamp": "2017-09-25T14:22:51.162811",
+    "values": [
+      {
+        "name": "(default)",
+        "value": "Korean",
+        "type": "1"
+      },
+      {
+        "name": "안녕하세요",
+        "value": "안녕하세요 : Korean",
+        "type": "1"
+      }
+    ]
+  }
+]
