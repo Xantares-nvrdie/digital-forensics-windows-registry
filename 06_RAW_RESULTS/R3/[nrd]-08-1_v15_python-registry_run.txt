@@ -1,0 +1,10 @@
+COMMAND: .venv/bin/python 00_README/dump_pyregistry.py 03_WORKING_COPY/ugrd-nrd/[nrd]-08-1_change-normal-data-to-smaller-size_v15/[nrd]-08-1_v15.hive 05_PYREG_OUTPUT/R3/[nrd]-08-1_v15_pyregistry.json
+RETURN CODE: 0
+RUNTIME_SEC: 14.1335
+SHA256_BEFORE: 8fc9d4d8b8c70c1639c52f915b2b09823d33a7e90c189b3ebc0e743bdf0335f2
+SHA256_AFTER: 8fc9d4d8b8c70c1639c52f915b2b09823d33a7e90c189b3ebc0e743bdf0335f2
+STDOUT:
+Wrote 543 key records to /Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/05_PYREG_OUTPUT/R3/[nrd]-08-1_v15_pyregistry.json
+
+STDERR:
+

@@ -1,0 +1,10 @@
+COMMAND: .venv/bin/python 00_README/dump_pyregistry.py 03_WORKING_COPY/ugrd-nrd/[nrd]-04-1_delete-a-value-with-normal-data_v15/[nrd]-04-1_v15.hive 05_PYREG_OUTPUT/R1/[nrd]-04-1_v15_pyregistry.json
+RETURN CODE: 0
+RUNTIME_SEC: 15.6085
+SHA256_BEFORE: 4acb4bc17e78b25ed71b3e7e3640180d4d9308f58eb1e9dc02ccf1e4888b2246
+SHA256_AFTER: 4acb4bc17e78b25ed71b3e7e3640180d4d9308f58eb1e9dc02ccf1e4888b2246
+STDOUT:
+Wrote 543 key records to /Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/05_PYREG_OUTPUT/R1/[nrd]-04-1_v15_pyregistry.json
+
+STDERR:
+

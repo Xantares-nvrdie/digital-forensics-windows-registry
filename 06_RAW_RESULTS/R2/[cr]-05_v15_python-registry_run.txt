@@ -1,0 +1,18 @@
+COMMAND: .venv/bin/python 00_README/dump_pyregistry.py 03_WORKING_COPY/ugrd-cr/[cr]-05_hive-header_v15/[cr]-05_v15.hive 05_PYREG_OUTPUT/R2/[cr]-05_v15_pyregistry.json
+RETURN CODE: 1
+RUNTIME_SEC: 0.0362
+SHA256_BEFORE: 6ab8c2cc8f938ff2b1465339d101f1ce75b1f1fa28b90ba7a5a9f4217656fa34
+SHA256_AFTER: 6ab8c2cc8f938ff2b1465339d101f1ce75b1f1fa28b90ba7a5a9f4217656fa34
+STDOUT:
+
+STDERR:
+Traceback (most recent call last):
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/00_README/dump_pyregistry.py", line 5, in <module>
+    reg = Registry.Registry(src)
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/Registry/Registry.py", line 389, in __init__
+    self._regf = RegistryParse.REGFBlock(self._buf, 0, False)
+                 ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/.venv/lib/python3.13/site-packages/Registry/RegistryParse.py", line 329, in __init__
+    raise ParseException("Invalid REGF ID")
+Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID)
+

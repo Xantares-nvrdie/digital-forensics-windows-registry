@@ -1,0 +1,10 @@
+COMMAND: .venv/bin/python 00_README/dump_pyregistry.py 03_WORKING_COPY/ugrd-nrd/[nrd]-01-1_delete-keys-with-values-but-without-subkeys_v15/[nrd]-01-1_v15.hive 05_PYREG_OUTPUT/R1/[nrd]-01-1_v15_pyregistry.json
+RETURN CODE: 0
+RUNTIME_SEC: 14.3173
+SHA256_BEFORE: 9bf110e3617c2bce18c9045fe3a1ed220170c25569831e439a999fe5b989d59f
+SHA256_AFTER: 9bf110e3617c2bce18c9045fe3a1ed220170c25569831e439a999fe5b989d59f
+STDOUT:
+Wrote 541 key records to /Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/05_PYREG_OUTPUT/R1/[nrd]-01-1_v15_pyregistry.json
+
+STDERR:
+

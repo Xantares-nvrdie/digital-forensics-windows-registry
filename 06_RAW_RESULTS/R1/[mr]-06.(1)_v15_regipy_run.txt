@@ -1,0 +1,13 @@
+COMMAND: .venv/bin/regipy-dump 03_WORKING_COPY/ugrd-mr/[mr]-06.(1)_hide-data-of-a-value_v15/[mr]-06.(1)_v15.hive -o 04_REGIPY_OUTPUT/R1/[mr]-06.(1)_v15_regipy.json
+RETURN CODE: 0
+RUNTIME_SEC: 1.7706
+SHA256_BEFORE: 68aed80083ed8899dd606e8e666705d1c676f5ef7196a28dbccc1967e133c754
+SHA256_AFTER: 68aed80083ed8899dd606e8e666705d1c676f5ef7196a28dbccc1967e133c754
+STDOUT:
+
+Completed in 1.6609489999827929s (542 subkeys enumerated)
+
+STDERR:
+INFO:regipy.registry:Hive type for /Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/03_WORKING_COPY/ugrd-mr/[mr]-06.(1)_hide-data-of-a-value_v15/[mr]-06.(1)_v15.hive was not identified: n\[nr]-##-1_all-in-one_v15.hive
+INFO:regipy.cli_utils:0 out of 542 subkeys were filtered out due to timestamp constraints
+

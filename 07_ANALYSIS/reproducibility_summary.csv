@@ -1,0 +1,23 @@
+tool,category,hive_file,runs,failed_runs,input_hash_stable,runtime_median_sec,runtime_min_sec,runtime_max_sec,error_count_per_run,identical_hash,canonical_same_order,canonical_any_order,matches_original_canonical,outcome,parser_error
+regipy,normal,[nr]-01-1_v15.hive,3,0,1,0.1962,0.1714,0.2581,0;0;0,1,1,1,1,reproducible,-
+regipy,normal,[nr]-02-1_v15.hive,3,0,1,0.1101,0.1054,0.1116,0;0;0,1,1,1,1,reproducible,-
+regipy,normal,[nr]-07-1_v15.hive,3,0,1,0.1106,0.1063,0.1168,0;0;0,1,1,1,1,reproducible,-
+regipy,deleted,[nrd]-01-1_v15.hive,3,0,1,1.8167,1.7706,1.8324,0;0;0,1,1,1,1,reproducible,-
+regipy,deleted,[nrd]-04-1_v15.hive,3,0,1,1.7715,1.765,1.7731,0;0;0,1,1,1,1,reproducible,-
+regipy,deleted,[nrd]-08-1_v15.hive,3,0,1,1.7492,1.7104,1.7845,0;0;0,1,1,1,1,reproducible,-
+regipy,deleted,[nrd]-14-1_v15.hive,3,0,1,1.7763,1.7498,1.7982,0;0;0,1,1,1,1,reproducible,-
+regipy,corrupted,[cr]-01_v15.hive,3,3,1,0.1097,0.1062,0.1124,1;1;1,NA,NA,NA,NA,consistent_failure,construct.core.ConstError
+regipy,corrupted,[cr]-05_v15.hive,3,3,1,0.1071,0.1035,0.1114,1;1;1,NA,NA,NA,NA,consistent_failure,construct.core.ConstError
+regipy,manipulated,[mr]-01.(1)_v15.hive,3,0,1,1.7421,1.7396,1.7748,0;0;0,1,1,1,1,reproducible,-
+regipy,manipulated,[mr]-06.(1)_v15.hive,3,0,1,1.767,1.7448,1.7706,0;0;0,1,1,1,1,reproducible,-
+python-registry,normal,[nr]-01-1_v15.hive,3,0,1,0.0347,0.0344,0.0363,0;0;0,1,1,1,1,reproducible,-
+python-registry,normal,[nr]-02-1_v15.hive,3,0,1,0.0324,0.0324,0.033,0;0;0,1,1,1,1,reproducible,-
+python-registry,normal,[nr]-07-1_v15.hive,3,0,1,0.0325,0.0315,0.0325,0;0;0,1,1,1,1,reproducible,-
+python-registry,deleted,[nrd]-01-1_v15.hive,3,0,1,14.3173,14.2769,14.667,0;0;0,1,1,1,1,reproducible,-
+python-registry,deleted,[nrd]-04-1_v15.hive,3,0,1,14.2908,14.1266,15.6085,0;0;0,1,1,1,1,reproducible,-
+python-registry,deleted,[nrd]-08-1_v15.hive,3,0,1,14.268,14.1335,14.9646,0;0;0,1,1,1,1,reproducible,-
+python-registry,deleted,[nrd]-14-1_v15.hive,3,0,1,14.347,14.2672,14.9981,0;0;0,1,1,1,1,reproducible,-
+python-registry,corrupted,[cr]-01_v15.hive,3,3,1,0.0624,0.0519,0.0719,1;1;1,NA,NA,NA,NA,consistent_failure,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid HBIN ID)
+python-registry,corrupted,[cr]-05_v15.hive,3,3,1,0.0365,0.0362,0.044,1;1;1,NA,NA,NA,NA,consistent_failure,Registry.RegistryParse.ParseException: Registry Parse Exception (Invalid REGF ID)
+python-registry,manipulated,[mr]-01.(1)_v15.hive,3,0,1,0.0343,0.0336,0.0372,0;0;0,1,1,1,1,reproducible,-
+python-registry,manipulated,[mr]-06.(1)_v15.hive,3,0,1,14.5716,14.3875,14.5742,0;0;0,1,1,1,1,reproducible,-

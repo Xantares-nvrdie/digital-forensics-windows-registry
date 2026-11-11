@@ -1,0 +1,13 @@
+COMMAND: .venv/bin/regipy-dump 03_WORKING_COPY/ugrd-nr/[nr]-02-1_simple-tree-structure_v15/[nr]-02-1_v15.hive -o 04_REGIPY_OUTPUT/R1/[nr]-02-1_v15_regipy.json
+RETURN CODE: 0
+RUNTIME_SEC: 0.1054
+SHA256_BEFORE: 1ca428a356d7441e527ae770f6ce4702bc902551b389eecfa863f1d56b9f4458
+SHA256_AFTER: 1ca428a356d7441e527ae770f6ce4702bc902551b389eecfa863f1d56b9f4458
+STDOUT:
+
+Completed in 0.002991290995851159s (15 subkeys enumerated)
+
+STDERR:
+INFO:regipy.registry:Hive type for /Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/03_WORKING_COPY/ugrd-nr/[nr]-02-1_simple-tree-structure_v15/[nr]-02-1_v15.hive was not identified: ce-tools_win\[nr]-02-1_v15.hive
+INFO:regipy.cli_utils:0 out of 15 subkeys were filtered out due to timestamp constraints
+

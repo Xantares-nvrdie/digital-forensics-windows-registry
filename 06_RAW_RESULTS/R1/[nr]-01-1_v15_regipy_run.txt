@@ -1,0 +1,13 @@
+COMMAND: .venv/bin/regipy-dump 03_WORKING_COPY/ugrd-nr/[nr]-01-1_possible-data-types_v15/[nr]-01-1_v15.hive -o 04_REGIPY_OUTPUT/R1/[nr]-01-1_v15_regipy.json
+RETURN CODE: 0
+RUNTIME_SEC: 0.2581
+SHA256_BEFORE: c49495f83aae33474d6d2e74d2503eef0634a8677604ad79d14f6d894ef04f4e
+SHA256_AFTER: c49495f83aae33474d6d2e74d2503eef0634a8677604ad79d14f6d894ef04f4e
+STDOUT:
+
+Completed in 0.023886833019787446s (1 subkeys enumerated)
+
+STDERR:
+INFO:regipy.registry:Hive type for /Users/Xantares/WORKZEN/Digital Forensics/DF04_Kelompok4/03_WORKING_COPY/ugrd-nr/[nr]-01-1_possible-data-types_v15/[nr]-01-1_v15.hive was not identified: ce-tools_win\[nr]-01-1_v15.hive
+INFO:regipy.cli_utils:0 out of 1 subkeys were filtered out due to timestamp constraints
+
